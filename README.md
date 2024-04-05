@@ -14,16 +14,17 @@
 
 ### Key Files and Directories
 
-- src/: This directory contains all the source code for the React application.
-   -- App.tsx: The main React component.
-   -- index.tsx: The entry point of the application.
-- public/: Static assets such as images, fonts, etc., can be placed here.
-- vite.config.ts: Vite configuration file.
-- .storybook/: Storybook configuration directory.
-    -- main.js: Storybook main configuration file.
-    -- preview.js: Storybook preview configuration file.
-- stories/: Storybook stories directory.
-
+```
+src/: This directory contains all the source code for the React application.
+    App.tsx: The main React component.
+    index.tsx: The entry point of the application.
+public/: Static assets such as images, fonts, etc., can be placed here.
+vite.config.ts: Vite configuration file.
+.storybook/: Storybook configuration directory.
+     main.js: Storybook main configuration file.
+     preview.js: Storybook preview configuration file.
+stories/: Storybook stories directory.
+```
 ### Stories
 
 Stories could be found in `src/stories` folder
