@@ -1,22 +1,28 @@
-# React + TypeScript + Vite
+# React + TypeScript + Vite with Storybook
 
 ## Steps to setup
 
-### Tools
-1. Create a new Vite-React-TS project
-   `npm create vite@latest react-mui-storybook-vite--demo -- --template react-ts` 
-2. Install Storybook
-   `npx storybook@latest init` 
-3. Install MUI
-   `npm install @mui/material @emotion/react @emotion/styled @mui/icons-material`
-4. Add a11y add-on
-  `npm i @storybook/addon-a11y`
+### Installation
+1. To get started, clone this repository to your local machine:
+   `git clone https://github.com/ageolena/react-mui-storybook-vite--demo.git`
+2. Install the dependencies
+   `npm i` 
+3. Run locally:
+   `npm run dev`
+4. Run Storybook
+  `npm run storybook`
 
-### Components
+### Key Files and Directories
 
-Components could be found in `src/components` folder
-
-Button component is a wrapper for MUI Button that follows flexible-restrictive pattern.
+src/: This directory contains all the source code for the React application.
+   App.tsx: The main React component.
+   index.tsx: The entry point of the application.
+public/: Static assets such as images, fonts, etc., can be placed here.
+vite.config.ts: Vite configuration file.
+.storybook/: Storybook configuration directory.
+    main.js: Storybook main configuration file.
+    preview.js: Storybook preview configuration file.
+stories/: Storybook stories directory.
 
 ### Stories
 
@@ -54,3 +60,17 @@ export default {
 - Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
 - Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+## Additional Information
+- Make sure you have Node.js and npm or yarn installed on your system.
+- This project uses Vite for fast development and builds.
+- React and TypeScript are used for building the UI components.
+- Storybook is used for developing UI components in isolation. 
+- Feel free to modify and extend the project according to your needs.
+
+## Storybook Deployed
+[https://ageolena.github.io/react-mui-storybook-vite--demo](https://ageolena.github.io/react-mui-storybook-vite--demo)
+
+To deploy Storybook run:
+`npm run deploy-storybook`
+#
