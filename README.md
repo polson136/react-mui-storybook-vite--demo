@@ -14,7 +14,7 @@
 
 ### Key Files and Directories
 
-```
+```js
 src/: This directory contains all the source code for the React application.
     App.tsx: The main React component.
     index.tsx: The entry point of the application.
